@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "jest"
-  },
-  "author": "Marie",
+},
+  "author": "Marie Apell",
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.1.3"
