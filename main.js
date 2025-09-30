@@ -11,3 +11,4 @@ function convertToUpper() {
     const result = text.toUpperCase();
     console.log(result);
 }
+
