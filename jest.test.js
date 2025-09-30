@@ -1,14 +1,9 @@
 // jest test code
 
+const {convertToUpper} = require('./utils');
 
-
-describe("A simple test", () => {
-    test("Test case 1",() => {
-
-        //the test comes here
-        const text = "hello";
-        const result = text.toUpperCase();
-        expect(result).toBe("HELLO");
-    });
-
+describe("convertToUpper", () => {
+  test("converts lowercase letters to uppercase", () => {
+    expect(convertToUpper("hej")).toBe("HEJ");
+  });
 });
